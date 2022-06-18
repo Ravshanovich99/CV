@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: 10% 20%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 6px;
+}
+
+.header{
+    width: 100%;
+    padding: 28px;
+    background:#303846;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.header h1{
+    color: #fff;
+}
+
+.header p{
+    color: #979BA2;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.contacts a{
+    color: #979BA2;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+}
+
+.left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.education{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.education h2{
+    font-weight: 400;
+    color: #303846;
+}
+
+.education .description{
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.education .description div{
+   width: 68%;
+   padding-bottom: 40px;
+}
+
+.education .description p{
+    padding-top: 10px;
+}
+
+.education span{
+    width: 100%;
+    height: 1px;
+    background: #eee;
+}
+
+.employment{
+    padding: 40px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.employment h2{
+    font-weight: 400;
+    color: #303846;
+}
+
+.employment .description{
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.employment .description div{
+   width: 60%;
+   padding-bottom: 40px;
+}
+
+.employment span{
+    width: 100%;
+    height: 1px;
+    background: #eee;
+}
+
+.about-me{
+    padding: 40px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.about-me h2{
+    font-weight: 400;
+    color: #303846;
+}
+
+.about-me .description div{
+    padding-top: 24px;
+   width: 100%;
+   padding-bottom: 40px;
+}
+
+.about-me span{
+    width: 100%;
+    height: 1px;
+    background: #eee;
+}
+
+.portfolio{
+    padding: 40px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.portfolio h2{
+    font-weight: 400;
+    color: #303846;
+}
+
+.portfolio-items{
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.portfolio-items h3{
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.portfolio-items a{
+    color: #000;
+}
+
+.line{
+    width: 1px;
+    background: #eee;
+    margin: 40px 0;
+}
+
+.right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right .personal{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.personal h2{
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+
+.personal div{
+    padding-bottom: 40px;
+}
+
+.personal span{
+    height: 1px;
+    background-color: #eee;
+}
+
+.right .hard{
+    padding: 0 40px;
+    padding-top: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.hard h2{
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+
+.hard p{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.hard div{
+    padding-bottom: 40px;
+}
+
+.skills-span{
+    height: 14px;
+    width: 14px;
+    background: #303846;
+    border: none;
+}
+
+.hard > span{
+    height: 1px;
+    background-color: #eee;
+}
+
+.right .soft{
+    padding: 40px;
+    padding-top: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.soft h2{
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+
+.soft p{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.soft > span{
+    height: 1px;
+    background-color: #eee;
+}
+
+.soft div{
+    padding-bottom: 40px;
+}
+
+
+.right .languages{
+    padding: 0 40px;
+    padding-top: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.languages h2{
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+
+.languages div{
+    padding-bottom: 40px;
+}
