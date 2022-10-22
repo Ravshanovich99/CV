@@ -9,8 +9,6 @@ body {
 }
 
 .container {
-    width: 21cm;
-    min-height: 29.7cm;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 6px;
     margin: 0 auto;
@@ -108,7 +106,7 @@ main {
     gap: 30px;
 }
 
-.employment-sweetspot{
+.employment-sweetspot {
     padding-top: 20px;
 }
 
@@ -116,7 +114,8 @@ main {
     width: 70%;
     padding-bottom: 20px;
 }
-.employment-right p:nth-child(2){
+
+.employment-right p:nth-child(2) {
     padding-top: 50px;
 }
 
