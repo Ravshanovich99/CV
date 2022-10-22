@@ -16,7 +16,7 @@ body {
 
 .header {
     width: 100%;
-    padding: 14px;
+    padding: 10px;
     background: #303846;
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@ body {
 
 .contacts {
     display: flex;
-    padding-top: 20px;
+    padding-top: 15px;
     gap: 40px;
 }
 
@@ -54,7 +54,7 @@ main {
 }
 
 .education {
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -66,14 +66,14 @@ main {
 }
 
 .education .description {
-    padding-top: 12px;
+    padding-top: 8px;
     display: flex;
     justify-content: space-between;
 }
 
 .education .description div {
     width: 68%;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .education .description p {
@@ -87,7 +87,7 @@ main {
 }
 
 .employment {
-    padding: 20px;
+    padding: 10px;
     padding-top: 0;
     display: flex;
     flex-direction: column;
@@ -100,23 +100,23 @@ main {
 }
 
 .employment .description {
-    padding-top: 12px;
+    padding-top: 8px;
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
 .employment-sweetspot {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .employment-left {
     width: 70%;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .employment-right p:nth-child(2) {
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .employment span {
@@ -126,7 +126,7 @@ main {
 }
 
 .about-me {
-    padding: 20px;
+    padding: 10px;
     padding-top: 0;
     display: flex;
     flex-direction: column;
@@ -139,9 +139,9 @@ main {
 }
 
 .about-me .description div {
-    padding-top: 24px;
+    padding-top: 12px;
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .about-me span {
@@ -151,7 +151,7 @@ main {
 }
 
 .portfolio {
-    padding: 20px;
+    padding: 10px;
     padding-top: 0;
     display: flex;
     flex-direction: column;
@@ -164,11 +164,11 @@ main {
 }
 
 .portfolio h4 {
-    padding: 12px 0;
+    padding: 8px 0;
 }
 
 .portfolio-items {
-    padding-top: 12px;
+    padding-top: 8px;
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -196,14 +196,14 @@ main {
 }
 
 .right .personal {
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
 }
 
 .personal h2 {
     font-weight: 400;
-    padding-bottom: 8px;
+    padding-bottom: 5px;
 }
 
 
@@ -214,7 +214,7 @@ main {
 }
 
 .personal div i {
-    padding-top: 10px;
+    padding-top: 8px;
 }
 
 .personal span {
@@ -223,7 +223,7 @@ main {
 }
 
 .right .hard {
-    padding: 0 20px;
+    padding: 0 10px;
     padding-top: none;
     display: flex;
     flex-direction: column;
@@ -231,7 +231,7 @@ main {
 
 .hard h2 {
     font-weight: 400;
-    padding-bottom: 7px;
+    padding-bottom: 5px;
 }
 
 .hard p {
@@ -241,7 +241,7 @@ main {
 }
 
 .hard div {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .skills-span {
@@ -257,7 +257,7 @@ main {
 }
 
 .right .soft {
-    padding: 20px;
+    padding: 10px;
     padding-top: none;
     display: flex;
     flex-direction: column;
@@ -265,7 +265,7 @@ main {
 
 .soft h2 {
     font-weight: 400;
-    padding-bottom: 8px;
+    padding-bottom: 5px;
 }
 
 .soft p {
@@ -285,7 +285,7 @@ main {
 
 
 .right .languages {
-    padding: 0 20px;
+    padding: 0 10px;
     padding-top: none;
     display: flex;
     flex-direction: column;
